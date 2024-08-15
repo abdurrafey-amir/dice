@@ -39,7 +39,7 @@ def rolls(x, y, size, radius, color, roll):
 
   turtle.forward(size/3)
 
-    if (roll == 1 or roll == 3 or roll == 5):
+  if (roll == 1 or roll == 3 or roll == 5):
     turtle.begin_fill()
     turtle.circle(radius)
     turtle.end_fill()
